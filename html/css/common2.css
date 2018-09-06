@@ -1,0 +1,45 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,button{margin:0;padding:0}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li{list-style:none}
+blockquote, q{quotes: none}
+blockquote:before, blockquote:after,q:before, q:after{content:'';content:none}
+input,select,textarea,button{vertical-align:middle}
+input::-ms-clear{display:none}
+button{border:0 none;background-color:transparent;cursor:pointer}
+body{overflow: hidden; font-family:'Marcellus', serif; background-color:#000; color:#fff;}
+body{-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;}
+body,th,td,input,select,textarea,button{font-size:12px;line-height:1.5;font-family:'Marcellus',sans-serif;color:#fff}
+a{color:#fff;text-decoration:none;cursor:pointer; border:0px; display:block; outline:none;}
+a:focus {text-decoration:underline;}
+a:active, a:hover{text-decoration:underline}
+a:active{background-color:transparent}
+address,caption,cite,code,dfn,em,var{font-style:normal;font-weight:normal}
+input[type="button"] {display:block; cursor:pointer; border:0px; color:#fff;}
+
+#data_section { position: absolute; top: 708px; left: 10px; color: #fff; }
+
+.scene.on{display:block;}
+.scene {display:none; position:absolute; top:0px; left:0px; width:898px; height:428px; background-color:#000;}
+
+.menu {position:absolute;top:10px;left:0px; width:898px;height:100px;}
+.menu .logo {position:absolute;top:0px;left:0px; width:898px; height:100px; background:url('../images/logo.png') no-repeat;}
+.menu .menu_link {background:url('../images/menu_link.png') no-repeat; background-position:100% 7px; padding-right:15px; font-size:18px;}
+.menu .link_home {position:absolute;top:40px;left:430px;}
+.menu .link_forum {position:absolute;top:40px;left:530px;}
+.menu .link_support {position:absolute;top:40px;left:640px;}
+.menu .link_twitter {position:absolute;top:40px;left:770px; width:25px;height:25px; background:url('../images/logo_sns_twitter.png') no-repeat; }
+.menu .link_facebook {position:absolute;top:40px;left:800px; width:25px;height:25px; background:url('../images/logo_sns_facebook.png') no-repeat;}
+.menu .link_youtube {position:absolute;top:40px;left:830px; width:25px;height:25px; background:url('../images/logo_sns_youtube.png') no-repeat;}
+.menu .link_home.DE {left:370px;}
+.menu .link_forum.DE {left:500px;}
+.menu .link_support.DE {left:600px;}
+.menu .link_home.FR {left:430px;}
+.menu .link_forum.FR {left:540px;}
+.menu .link_support.FR {left:640px;}
+
+/* global */
+.ir_pm {display:block;overflow:hidden;font-size:1px;line-height:0;color:transparent}
+.ir_wa{display:block;overflow:hidden;position:relative;z-index:-1;width:100%;height:100%}
+.screen_out{overflow:hidden;position:absolute;width:0;height:0;line-height:0;text-indent:-9999px}
+.hide{display:none}

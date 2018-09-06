@@ -1,0 +1,27 @@
+{
+  "name": "spirit-launcher",
+  "version": "1.0.0",
+  "description": "Launcher for Black Desert Online",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "build"
+  },
+  "license": "MIT",
+  "build": {
+    "productName": "Spirit Launcher",
+    "win": {
+      "target": "portable",
+      "icon": "build/icon.ico"
+    }
+  },
+  "devDependencies": {
+    "electron": "^2.0.8",
+    "electron-builder": "^20.28.4"
+  },
+  "dependencies": {
+    "ini": "^1.3.5",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
